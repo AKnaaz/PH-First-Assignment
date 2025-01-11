@@ -189,6 +189,55 @@ nav{
     background-image:url(./assets/quote-bg.png);
     background-color: rgb(255, 255, 255);
     background-repeat: no-repeat;
-    padding: 41px 20px;
-    
+    padding: 41px 20px;   
+}
+
+/* opinion section style */
+#opinion{
+    padding: 0px 150px 60px 150px;
+}
+.opinion-box{
+    margin: 68px 0px;
+}
+.opinion-box2{
+    margin-top: 25px;
+    padding: 27px;
+}
+.opinion-box3{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(198, 228, 214);
+    padding: 20px;
+}
+.opinion-items{
+    display: flex;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.1);
+}
+.opinion-items .opinion-item1{
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    width: 88%;
+}
+.opinion-items .opinion-item2{
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    width: 12%;
+}
+.opinion-items .opinion-item2 .color{
+    box-sizing: border-box;
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    background: rgb(198, 228, 214);
+    padding: 8px 12px;
+}
+.opinion-items .opinion-item2 span{
+    box-sizing: border-box;
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    padding: 8px 12px;
 }
