@@ -194,7 +194,7 @@ nav{
 
 /* opinion section style */
 #opinion{
-    padding: 0px 150px 60px 150px;
+    margin: 0px 150px 60px 150px;
 }
 .opinion-box{
     margin: 68px 0px;
@@ -240,4 +240,55 @@ nav{
     border: 1px solid rgb(14, 14, 14);
     border-radius: 4px;
     padding: 8px 12px;
+}
+
+/* news section style */
+#news{
+    margin: 60px 150px;
+}
+.news-items1 .pillar-content{
+    margin: 20px 0px;
+}
+.news-items2{
+    display: flex;
+    padding: 45px;
+    gap: 25px;
+}
+.news-items2 .news-img1 img{
+    width: 347px;
+    height: 260px;
+    border-radius: 24px;
+}
+.news-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 10px;
+}
+.news-item1 .j-img img{
+    width: 114px;
+    height: 34px;
+    margin-bottom: 10px;
+}
+.news-item1 .date{
+    margin-bottom: 10px;
+}
+.news-btn-container{
+    margin-top: 27px;
+}
+.news-btn{
+    padding: 11px 22px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 19px;
+    border: none;
+}
+.news-box2{
+    margin-top: 20px;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
 }
