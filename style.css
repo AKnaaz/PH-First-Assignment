@@ -381,3 +381,22 @@ form button{
     line-height: 19px;
     border: none;
 }
+
+/* footer section style */
+footer{
+    margin: 68px 150px;
+}
+.footer-box{
+    padding: 43px 136px;
+    background: rgb(255, 255, 255);
+}
+.footer-box .pillar-title{
+    text-align: center;
+    margin: 27px 0px;
+}
+.footer-img-box{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
